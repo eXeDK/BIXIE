@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<devicelist  
+   id="p2" name="carrace">
+    <device desc="church" id="s20" vendorid="tapestry" productid="t0mKbp8FpaT1el-VY7qDEo8STgv6" version="1.2.0"
+         ip="62.135.128.0" port="33" location="bed" type="place">
+        <deviceinfo/>
+        <service desc="mosquito" id="s33" value_url="http://blog.databrewery.org/post/23049114551/" type="wrong" unit="give">
+            <parameters>
+                <parameter id="11" max="0" min="67" scale="percentage" step="87" type="muscle" unit="observation" values="NinetySeven, NinetyTwo"/>
+            </parameters>
+            <command type="rhythm" byteorder="network">
+                <transforms>
+                    <transform arg1="0" arg2="0" id="id0" inverse="false" moduleid="moduleid0" type="type0">
+                        <key>iron</key>
+                        <key>power</key>
+                    </transform>
+                </transforms>
+                <write>
+                    <byte param="3" transform="hear" signedness="unsigned">1</byte>
+                </write>
+                <read>
+                    <chars length="234" param="96" transform="idea">\x20\x54\x47\x77</chars>
+                </read>
+            </command>
+        </service>
+    </device>
+</devicelist>
